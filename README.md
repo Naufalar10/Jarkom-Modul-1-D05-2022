@@ -12,11 +12,11 @@
 
 ### Jawab :
 a. Masukkan wireshark filter expression “http.host == monta.if.its.ac.id” :
-(gambar)
+![1.1](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar1.1.png)
 b. Lalu klik kanan, klik follow, dan klik tcp stream :
-(gambar)
+![1.2](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar1.2.png)
 c. Lalu hasilnya akan kelihatan yaitu webserver nginx/1.10.3 :
-(gambar)
+![1.3](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar1.3.png)
 
 ## Soal 2
 
@@ -24,11 +24,11 @@ c. Lalu hasilnya akan kelihatan yaitu webserver nginx/1.10.3 :
 
 ### Jawab :
 a. Masukkan wireshark filter expression “http.host == monta.if.its.ac.id” :
-(gambar)
+![2.1](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar2.1.png)
 b. lalu klik paket no.576 sehingga muncul info tentang paket 576
 c. lalu copy alamat http://monta.if.its.ac.id/index.php/topik/detailTopik/194
 d. lalu buka alamat link tersebut di browser :
-(gambar)
+![2.2](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar2.2.png)
 e. Maka judul TA yang dibuka Ishaq adalah “Evaluasi unjuk kerja User Space
 FileSystem(FUSE)”
 
@@ -40,7 +40,7 @@ FileSystem(FUSE)”
 a. Buka file resource “soal3-6.pcapng”
 b. Masukkan wireshark filter expression “tcp.dstport == 80” ke dalam display filter
 c. Berikut tampilannya:
-(gambar)
+![3](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar3.png)
 
 ## Soal 4
 
@@ -50,4 +50,4 @@ c. Berikut tampilannya:
 a. Buka resource “Soal 3-6”
 b. Masukkan wireshark filter expression “tcp.srcport ==21” ke dalam display filter
 c. Berikut tampilannya:
-(gambar)
+![4](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar4.png)
