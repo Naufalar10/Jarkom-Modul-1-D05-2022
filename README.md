@@ -51,3 +51,36 @@ a. Buka resource “Soal 3-6”
 b. Masukkan wireshark filter expression “tcp.srcport ==21” ke dalam display filter
 c. Berikut tampilannya:
 ![4](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar4.png)
+
+## Soal 5
+
+### Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+### Jawab :
+a. Buka file resource “soal3-6.pcapng”
+b. Masukkan “tcp.srcport == 443” ke dalam display filter
+Berikut tampilannya:
+
+## Soal 6
+
+### Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
+
+### Jawab :
+a. Buka resource “Soal 3-6”
+b. Masukkan “ip.dst == lipi.go.id” ke dalam display filter
+Berikut tampilannya:
+
+## Soal 7
+
+### Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+### Jawab :
+a. Buka command prompt
+b. Input “ipconfig” untuk melihat IPv4
+Berikut contoh outputnya:
+
+c. Buka wireshark dan buka wifi
+
+d. Masukkan “ip.src_host == [ip address]”. Disini saya masukkan ip address = 192.168.0.104
+Berikut outputnya:
+
