@@ -61,6 +61,8 @@ a. Buka file resource “soal3-6.pcapng”
 b. Masukkan “tcp.srcport == 443” ke dalam display filter
 Berikut tampilannya:
 
+![5](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar5.png)
+
 ## Soal 6
 
 ### Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
@@ -69,6 +71,8 @@ Berikut tampilannya:
 a. Buka resource “Soal 3-6”
 b. Masukkan “ip.dst == lipi.go.id” ke dalam display filter
 Berikut tampilannya:
+
+![6](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar6.png)
 
 ## Soal 7
 
@@ -79,8 +83,14 @@ a. Buka command prompt
 b. Input “ipconfig” untuk melihat IPv4
 Berikut contoh outputnya:
 
+![7.1](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar7.1.png)
+
 c. Buka wireshark dan buka wifi
+
+![7.2](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar7.2.png)
 
 d. Masukkan “ip.src_host == [ip address]”. Disini saya masukkan ip address = 192.168.0.104
 Berikut outputnya:
+
+![7.3](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar7.3.png)
 
