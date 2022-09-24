@@ -94,3 +94,41 @@ Berikut outputnya:
 
 ![7.3](https://github.com/Naufalar10/Jarkom-Modul-1-D05-2022/blob/main/image/gambar7.3.png)
 
+## Soal 8
+
+### Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
+a. Buka resource “soal8-10.pcapng”
+
+b. Menulusuri packet, lalu menemukan paket pertama:
+	
+c. Dari packet ini, tarik kesimpulan bahwa kunci merupakan IP address 127.0.0.1 dan 127.0.1.1 dan TCP port 65432 dan 60236. Sehingga, filter yang dapat dipakai merupakan: (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && (tcp.port == 65432 || tcp.port  == 60236). Dapat hasil berupa :
+
+e. klik kanan salah satu paket tersebut. Lalu klik “Follow” dan klik “TCP stream”
+
+f. Berikut ini transkrip percakapannya:
+
+
+ ## Soal 9
+
+### Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+
+a. Dari filter yang sama dengan soal no.8 tertemu percakapan sebagai berikut:
+
+b. Oh oke2 deh, boleh sekalian kirimin file saltnya nggak? Hehe
+Hilih yadeh, lewat 9002 ya?
+c. Maka, dengan memakai filter (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && +tcp.port == 9002 akan menemukan transmisi ini:
+
+e. Jika kita menyalin data tersebut dalam bentuk raw lalu buka dengan command file dalam linux maka akan mendapat hasil sebagai berikut: 
+
+f. Sehingga jika kita memasukkan passwordnya sesuai dengan no 10 (berupa nakano) kita dapat memasukkan command sebagai berikut:
+
+g. Hasilnya akan sebagai berikut:
+
+## Soal 10
+
+### Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
+a. dari filter yang sama dengan soal no. 8, tertemu percapakan sebagai berikut:
+Ada, klo nggak salah passwordnya itu pake nama karakter anime yang kembar lima itu lho, jangan lupa pake huruf kecil semua
+b. Dari percakapan tersebut, setelah mencoba-coba dengan file yang didapat pada soal no 9, dapat diketahui bahwa password yang dipakai adalah “nakano”
