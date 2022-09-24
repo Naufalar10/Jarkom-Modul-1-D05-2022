@@ -100,18 +100,18 @@ Berikut outputnya:
 
 a. Buka resource “soal8-10.pcapng”
 
-b. Menulusuri packet, lalu menemukan paket pertama:
+b. Menulusuri packet, lalu menemukan paket pertama:<br>
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/7030663/192095214-db12bd7f-7222-43fd-83d4-7a3b5b533fce.png">
 	
-c. Dari packet ini, tarik kesimpulan bahwa kunci merupakan IP address 127.0.0.1 dan 127.0.1.1 dan TCP port 65432 dan 60236. Sehingga, filter yang dapat dipakai merupakan: (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && (tcp.port == 65432 || tcp.port  == 60236). Dapat hasil berupa :
+c. Dari packet ini, tarik kesimpulan bahwa kunci merupakan IP address 127.0.0.1 dan 127.0.1.1 dan TCP port 65432 dan 60236. Sehingga, filter yang dapat dipakai merupakan: (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && (tcp.port == 65432 || tcp.port  == 60236). Dapat hasil berupa :<br>
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/7030663/192095219-43ffff59-1a3f-4b45-846b-c89868dee5e6.png">
 
 
-d. klik kanan salah satu paket tersebut. Lalu klik “Follow” dan klik “TCP stream”
+d. klik kanan salah satu paket tersebut. Lalu klik “Follow” dan klik “TCP stream”<br>
 <img width="226" alt="image" src="https://user-images.githubusercontent.com/7030663/192095228-d4f1826f-2090-4345-95d6-c3ed9cfd8f8d.png">
 
 
-e. Berikut ini transkrip percakapannya:
+e. Berikut ini transkrip percakapannya:<br>
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/7030663/192095235-60c76c28-2255-4932-ba7f-054258678a34.png">
 
 
@@ -124,16 +124,16 @@ a. Dari filter yang sama dengan soal no.8 tertemu percakapan sebagai berikut:
 
 b. Oh oke2 deh, boleh sekalian kirimin file saltnya nggak? Hehe
 Hilih yadeh, lewat 9002 ya?
-c. Maka, dengan memakai filter (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && +tcp.port == 9002 akan menemukan transmisi ini:
+c. Maka, dengan memakai filter (ip.src == 127.0.0.1 ||  ip.dst == 127.0.0.1) && +tcp.port == 9002 akan menemukan transmisi ini:<br>
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/7030663/192095291-ab94f7f3-65d9-4bc0-8bf4-9d3a12d0177e.png">
 
-d. Jika kita menyalin data tersebut dalam bentuk raw lalu buka dengan command file dalam linux maka akan mendapat hasil sebagai berikut: 
+d. Jika kita menyalin data tersebut dalam bentuk raw lalu buka dengan command file dalam linux maka akan mendapat hasil sebagai berikut:<br> 
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/7030663/192095292-f56757c3-920b-427b-a57b-8932c2a8ce64.png">
 
-e. Sehingga jika kita memasukkan passwordnya sesuai dengan no 10 (berupa nakano) kita dapat memasukkan command sebagai berikut:
+e. Sehingga jika kita memasukkan passwordnya sesuai dengan no 10 (berupa nakano) kita dapat memasukkan command sebagai berikut:<br>
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/7030663/192095297-0bc117e8-6d31-4163-841e-1e6be8955b8a.png">
 
-f. Hasilnya akan sebagai berikut:
+f. Hasilnya akan sebagai berikut:<br>
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/7030663/192095300-b68fc849-9969-4d7b-bf55-1cd984b7e034.png">
 
 ## Soal 10
