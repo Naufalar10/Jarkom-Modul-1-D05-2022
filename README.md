@@ -144,6 +144,6 @@ a. dari filter yang sama dengan soal no. 8, tertemu percapakan sebagai berikut:
 Ada, klo nggak salah passwordnya itu pake nama karakter anime yang kembar lima itu lho, jangan lupa pake huruf kecil semua
 <br>b. Dari percakapan tersebut, setelah mencoba-coba dengan file yang didapat pada soal no 9, dapat diketahui bahwa password yang dipakai adalah “nakano”
 
-#Kendala
+# Kendala
 ### ketika mengerjakan nomor 2, kami sempat bingung dalam mencari judul yang diminta. 
 ### Pada awalnya kami menulis manual percakapan pada soal nomor 8, tapi kami menemukan cara otomatis dengan menggunakan menu follow tcp stream. 
