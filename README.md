@@ -142,4 +142,4 @@ f. Hasilnya akan sebagai berikut:<br>
 
 a. dari filter yang sama dengan soal no. 8, tertemu percapakan sebagai berikut:
 Ada, klo nggak salah passwordnya itu pake nama karakter anime yang kembar lima itu lho, jangan lupa pake huruf kecil semua
-b. Dari percakapan tersebut, setelah mencoba-coba dengan file yang didapat pada soal no 9, dapat diketahui bahwa password yang dipakai adalah “nakano”
+<br>b. Dari percakapan tersebut, setelah mencoba-coba dengan file yang didapat pada soal no 9, dapat diketahui bahwa password yang dipakai adalah “nakano”
